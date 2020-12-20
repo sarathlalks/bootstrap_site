@@ -1,0 +1,142 @@
+header {
+    background: url('../images/bg-banner-photo.png') no-repeat center center;
+    background-size:cover;
+    height: 70vh;
+}
+
+.headtext{
+    padding-top: 10%;
+    color: white;
+    margin: 0 !important;
+    
+}
+h1{
+    background-color: #4c575e;
+}
+
+#services,#social{
+background-color: #4bcaff;
+}
+#services div img {
+    width: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.coffee img{
+    width: 12px !important;
+}
+#services div h5 {
+color: white;
+}
+#services div p {
+    font-size: 12px;
+    color: white;
+}
+.sub-heading {
+    font-size: 16px;
+    color: white;
+    position: relative;
+}
+.sub-heading::after {
+    content: '';
+    width: 40px;
+    height: 1.5px;
+    border-top: 1.5px solid white;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.squared {
+    border: 1px solid black;
+    margin: 0 2px 0 0;
+}
+.main {
+    color: black;
+}
+.main:after,.socialclass:after{
+    content: '';
+    width: 40px;
+    height: 1.5px;
+    border-top: 1.5px solid black;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.socialclass:after{
+    border-top: 1.5px solid white;
+}
+.m0{
+    margin: 0;
+}
+#default {
+    background-color: #515f67;
+}
+.black {
+    color: black;
+}
+.black:after{
+    content: '';
+    width: 40px;
+    height: 1.5px;
+    border-top: 1.5px solid black;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.white {
+    color: white;
+}
+#default button {
+    background: transparent;
+}
+#about {
+    background: url(../images/bg\ photo\ photographer.png) no-repeat center center;
+    background-size: cover;
+    height: auto;
+}
+#about img {
+    border: 1.5px solid white;
+    width: 30px;
+    height: 30px;
+}
+#contact {
+    background: url(../images/contact\ bg.png) no-repeat center center;
+    background-size: cover;
+    height: auto;
+}
+#contact .form-custom,#contact .form-custom:focus {
+    background: transparent;
+    border-radius: 0;
+    border: 1.5px solid white;
+}
+.navBar {
+    background-color: #475259;
+    height: 10vh;
+}
+.navBar img {
+    width: 80px;
+}
+
+#portfolio img {
+    width: 100%;
+}
+#contact label {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+#contact p,#contact address {
+    font-size: 12px;
+}
+#message {
+    height: 100px;
+}
+footer {
+    height: 30vh;
+    background-color: #353f47;
+}
+.footerText {
+    font-size: 10px;
+    color: #aaadaf;
+    position: relative;
+}
